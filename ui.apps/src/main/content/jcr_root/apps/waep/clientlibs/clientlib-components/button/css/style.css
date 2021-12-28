@@ -1,0 +1,19 @@
+.cmp-button{
+  padding: 0.7rem 1.5rem;
+  display: inline-block;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 2rem;
+    margin-bottom:2rem;
+transition: background-color 650ms;
+    }
+
+.cmp-button:hover{
+background-color: #5870f8;
+        }
+
+.cmp-button__text{
+color:white;
+font-weight:bold;
+
+    }

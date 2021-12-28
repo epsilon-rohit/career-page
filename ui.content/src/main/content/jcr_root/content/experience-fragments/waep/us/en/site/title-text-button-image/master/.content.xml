@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-15T12:54:18.437+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/waep/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Title-text-button-image"
+        sling:resourceType="waep/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="waep/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2021-09-14T14:58:37.252+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T12:18:56.871+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="waep/components/container"
+                backgroundColor="rgb(255,255,255)"
+                backgroundImageReference="/content/dam/waep/Background-1.jpg"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2021-09-14T14:58:48.004+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-14T14:59:19.396+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Epsilon solutions are built to solve your biggest challenges"
+                    sling:resourceType="waep/components/title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="6"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2021-09-14T14:59:26.442+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-14T17:11:15.157+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/text"
+                    text="&lt;p>To market effectively, brands need a clear view of their customers. Only Epsilon has the industry’s most accurate, stable and scalable identity that’s anchored in first-party data—not third-party cookies or device IDs that break down over time. And with award-winning, best-in-class digital media, messaging and loyalty solutions, brands deliver personalized messages at scale that grow real customer relationships. See why we’re the only partner that can drive your marketing’s success.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            offset="1"
+                            width="5"/>
+                    </cq:responsive>
+                </text>
+                <image
+                    jcr:created="{Date}2021-09-14T15:17:34.890+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-14T15:35:02.930+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title=" Epsilon solutions are built to solve your biggest challenges"
+                    sling:resourceType="waep/components/image"
+                    alt="About Us image"
+                    displayPopupTitle="true"
+                    fileName="About_us_cropped.JPG"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="none"
+                            offset="0"
+                            width="5"/>
+                    </cq:responsive>
+                    <file/>
+                </image>
+                <button
+                    jcr:created="{Date}2021-09-14T15:47:33.228+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T12:25:30.582+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Why Epsilon"
+                    sling:resourceType="waep/components/button">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="11"/>
+                    </cq:responsive>
+                </button>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

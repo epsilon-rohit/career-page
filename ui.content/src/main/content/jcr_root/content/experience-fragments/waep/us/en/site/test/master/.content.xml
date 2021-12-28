@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-29T16:13:24.736+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/waep/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Beyond Text Container"
+        sling:resourceType="waep/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2021-09-16T10:27:31.517+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="waep/components/container"
+            layout="responsiveGrid">
+            <beyondtextbackground
+                jcr:created="{Date}2021-09-29T15:43:44.803+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-29T15:44:03.719+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="waep/components/content/beyondTextBackground"
+                altValueFromDAM="true"
+                displayPopupTitle="true"
+                fileReference="/content/dam/waep/about_us_featured.png"
+                isDecorative="false"
+                titleValueFromDAM="true">
+                <content
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <beyondtext
+                        jcr:created="{Date}2021-09-29T15:44:10.405+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-09-29T16:13:24.648+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/content/beyondText"
+                        context="Giving Back"
+                        description="We’re passionate about donating our time, money and skills to help others and improve our world. See how we make a difference and prioritize giving back to the community."
+                        title="How we go beyond"/>
+                </content>
+            </beyondtextbackground>
+        </root>
+        <cq:metadata jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

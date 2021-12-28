@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-15T13:23:21.769+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/waep/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Title-text-button-image-2"
+        sling:resourceType="waep/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2021-09-14T15:05:44.145+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="waep/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2021-09-15T12:51:07.144+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T13:17:12.112+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="waep/components/container"
+                backgroundImageReference="/content/dam/waep/Background-2.jpg"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2021-09-15T12:51:12.640+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T12:51:39.475+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Join us"
+                    sling:resourceType="waep/components/title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="6"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2021-09-15T12:51:19.746+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T12:52:17.414+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/text"
+                    text="&lt;p>We're building a culture where smart and collaborative people like you can do their best work. If you’re ready to grow your career and help thousands of organizations market better, you’ve come to the right place.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            behavior="newline"
+                            offset="1"
+                            width="5"/>
+                    </cq:responsive>
+                </text>
+                <image
+                    jcr:created="{Date}2021-09-15T12:51:24.514+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T12:53:39.966+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Join us"
+                    sling:resourceType="waep/components/image"
+                    alt="Join us"
+                    displayPopupTitle="true"
+                    fileName="About-us-cropped_2.JPG"
+                    isDecorative="false">
+                    <file/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="5"/>
+                    </cq:responsive>
+                </image>
+                <button
+                    jcr:created="{Date}2021-09-15T12:55:40.229+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T12:56:01.673+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Careers"
+                    sling:resourceType="waep/components/button">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="11"/>
+                    </cq:responsive>
+                </button>
+            </container>
+            <container_602199208
+                jcr:created="{Date}2021-09-15T13:22:11.106+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-15T13:23:21.671+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="waep/components/container"
+                backgroundColor="rgb(232,240,253)"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2021-09-15T13:22:17.895+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-15T13:22:26.914+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="In the press"
+                    sling:resourceType="waep/components/title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="11"/>
+                    </cq:responsive>
+                </title>
+            </container_602199208>
+        </root>
+    </jcr:content>
+</jcr:root>

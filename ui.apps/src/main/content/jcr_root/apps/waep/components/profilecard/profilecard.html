@@ -1,0 +1,12 @@
+<!--/* byline.html */-->
+<div data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+    class="cmp-profilecard">
+    <div class="cmp-profilecard__image"
+        data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }">
+    </div>
+<div class="cmp-profilecard__text">
+    <h2 class="cmp-profilecard__name">${properties.profilename}</h2>
+    <h4 class="cmp-profilecard__designation">${properties.profiledesignation}</h4>
+</div>
+</div>
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=false}"></sly>

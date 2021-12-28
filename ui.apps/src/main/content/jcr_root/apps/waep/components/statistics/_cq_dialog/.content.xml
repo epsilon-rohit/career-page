@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Statistics"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}false">
+                <items jcr:primaryType="nt:unstructured">
+                    <statHeading
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="statHeading"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <heading
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter heading"
+                                                fieldDescription="Heading the stat component"
+                                                fieldLabel="heading"
+                                                name="./heading"
+                                                required="{Boolean}true"/>
+                                            <description
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter heading"
+                                                fieldDescription="Description of Stat component heading"
+                                                fieldLabel="heading description"
+                                                name="./headingDescription"
+                                                required="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </statHeading>
+                    <statistics
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="statistics"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <statValue1
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter Stat value"
+                                                fieldDescription="Value to display."
+                                                fieldLabel="Stat Value 1"
+                                                name="./statValue1"
+                                                required="{Boolean}true"/>
+                                            <statValue1_desc
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter description of Stat value 1"
+                                                fieldDescription="Description for Stat Value 1"
+                                                fieldLabel="Stat Description"
+                                                name="./statValue1_desc"
+                                                required="{Boolean}true"/>
+                                             <statValue2
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter Stat value"
+                                                fieldDescription="Value to display."
+                                                fieldLabel="Stat Value 2"
+                                                name="./statValue2"
+                                                required="{Boolean}true"/>
+                                            <statValue2_desc
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter description of Stat value 2"
+                                                fieldDescription="Description for Stat Value 2"
+                                                fieldLabel="Stat Description"
+                                                name="./statValue2_desc"
+                                                required="{Boolean}true"/>
+                                            <statValue3
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter Stat value"
+                                                fieldDescription="Value to display."
+                                                fieldLabel="Stat Value 3"
+                                                name="./statValue3"
+                                                required="{Boolean}true"/>
+                                            <statValue3_desc
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                emptyText="Enter description of Stat value 3"
+                                                fieldDescription="Description for Stat Value 3"
+                                                fieldLabel="Stat Description"
+                                                name="./statValue3_desc"
+                                                required="{Boolean}true"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </statistics>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

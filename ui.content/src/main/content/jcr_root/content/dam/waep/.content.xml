@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:conf="/conf/waep"
+        dam:noThumbnail="{Boolean}true"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="WE AT EPS">
+        <folderThumbnail/>
+    </jcr:content>
+    <epsilon-logo--white.svg/>
+    <John_x0020_Guilani.jpg/>
+    <about_us_featured.png/>
+    <Background-1.jpg/>
+    <Background-2.jpg/>
+    <B.jpg/>
+    <C_x0028_1_x0029_.jpg/>
+    <C.jpg/>
+    <J_x0028_1_x0029_.jpg/>
+    <Laurie_x0020_Fry_Chief_x0020_Talent_x0020_Officer.jpg/>
+    <Loch.jpg/>
+    <M.jpg/>
+    <Myron.jpg/>
+    <PAUL_DUNDON_24MAY2017.jpg/>
+    <Peter_x0020_Bitsakis.jpg/>
+    <R.jpg/>
+    <W.jpg/>
+    <MeetOurLeadershipBackground.jpg/>
+</jcr:root>

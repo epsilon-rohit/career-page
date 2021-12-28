@@ -1,0 +1,43 @@
+
+.wrapper-main::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .wrapper-main {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+
+.wrapper-main--row{
+    display: flex;
+        flex-direction: row;
+        background: white;
+        padding: 2rem;
+        overflow-x: scroll;
+    }
+.wrapper-main {
+        flex: 1;
+        display: flex;            
+        flex-direction: row;
+        padding-right: 12rem; 
+    	padding-left: 8rem;
+        background:white; 
+      }
+.wrapper-main .wrapper-main__item {
+        display: flex;
+        flex-direction: column;
+        flex: 1;   
+        background: white;   
+        width: 500px; 
+        justify-content: center; 
+        padding:0.6rem;              /* new */
+      }
+.wrapper-main .wrapper-main__image {
+        display: flex;
+        flex-direction: column;
+        flex: 1;  
+        background: white; 
+        width: 300px;
+        justify-content: center;  
+        padding:0.6rem;           
+      }

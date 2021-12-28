@@ -1,0 +1,28 @@
+.block-mod--nav{
+    position absolute;
+    top:150px;
+    right:60px;
+    marging-left:15rem;
+}
+
+.block-mod--nav .block-nav{
+    background-color:grey;
+    color:white;
+    display:inline-block;
+    width:4rem;
+    height:.2rem;
+    padding:.1rem;
+    border-radius: 9px 0px 9px 0px;
+}
+
+.block-mod--nav .block-space{
+     padding:.2rem;
+}
+
+.block-nav:hover{
+     background-color:rgb(255,128,0);
+     width:10rem;
+     height:.4rem;
+     cursor:pointer;
+
+}

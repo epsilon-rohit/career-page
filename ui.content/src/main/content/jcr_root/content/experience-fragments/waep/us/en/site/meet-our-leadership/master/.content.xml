@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-09-22T10:44:25.200+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/waep/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Meet our leadership"
+        sling:resourceType="waep/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2021-09-14T15:05:44.145+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="waep/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2021-09-20T12:05:16.293+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-09-22T10:44:25.026+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="waep/components/container"
+                backgroundImageReference="/content/dam/waep/MeetOurLeadershipBackground.jpg"
+                layout="responsiveGrid">
+                <title
+                    jcr:created="{Date}2021-09-20T12:05:28.842+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-20T13:11:25.403+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Meet our leadership"
+                    sling:resourceType="waep/components/title"
+                    type="h1">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="11"/>
+                    </cq:responsive>
+                </title>
+                <carousel
+                    jcr:created="{Date}2021-09-20T12:05:44.439+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-09-20T12:59:02.300+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="waep/components/carousel"
+                    autopauseDisabled="false"
+                    autoplay="false"
+                    delay="5000">
+                    <item_1632119755739
+                        cq:panelTitle="p1"
+                        jcr:lastModified="{Date}2021-09-20T12:06:22.061+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/John Guilani.jpg"
+                        profiledesignation="Executive Chairman"
+                        profilename="John Guilani"/>
+                    <item_1632122749181
+                        cq:panelTitle="p2"
+                        jcr:lastModified="{Date}2021-09-20T13:03:20.025+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/R.jpg"
+                        profiledesignation="President, Chief Operating Officer"
+                        profilename="Ric Elert"/>
+                    <item_1632122879101
+                        cq:panelTitle="p3"
+                        jcr:lastModified="{Date}2021-09-20T13:00:07.397+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/B.jpg"
+                        profiledesignation="Executive Strategic Advisor"
+                        profilename="Bryan Kennedy"/>
+                    <item_1632122885249
+                        cq:panelTitle="p4"
+                        jcr:lastModified="{Date}2021-09-20T13:01:03.542+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/C.jpg"
+                        profiledesignation="President, Epsilon Automotive"
+                        profilename="Cathy Lang"/>
+                    <item_1632122890830
+                        cq:panelTitle="p5"
+                        jcr:lastModified="{Date}2021-09-20T13:03:34.148+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/W.jpg"
+                        profiledesignation="Chief Strategic Growth Officer"
+                        profilename="Wayne Townsend"/>
+                    <item_1632122896517
+                        cq:panelTitle="p6"
+                        jcr:lastModified="{Date}2021-09-20T13:03:00.567+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/Loch.jpg"
+                        profiledesignation="Chief Analytics Officer"
+                        profilename="Loch Rose"/>
+                    <item_1632122902857
+                        cq:panelTitle="p7"
+                        jcr:lastModified="{Date}2021-09-20T13:04:20.490+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/Myron.jpg"
+                        profiledesignation="Chief Technology Officer"
+                        profilename="Myron Sojka"/>
+                    <item_1632122908189
+                        cq:panelTitle="p8"
+                        jcr:lastModified="{Date}2021-09-20T13:05:03.134+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/J(1).jpg"
+                        profiledesignation="Chief Product Officer"
+                        profilename="Joe Doran"/>
+                    <item_1632122912469
+                        cq:panelTitle="p9"
+                        jcr:lastModified="{Date}2021-09-20T13:05:50.197+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/C(1).jpg"
+                        profiledesignation="Chief Media Officer"
+                        profilename="Chad Peplinski"/>
+                    <item_1632122919465
+                        cq:panelTitle="p10"
+                        jcr:lastModified="{Date}2021-09-20T13:06:37.227+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/Peter Bitsakis.jpg"
+                        profiledesignation="President, Epsilon International"
+                        profilename="Peter Bitsakis"/>
+                    <item_1632122926346
+                        cq:panelTitle="p11"
+                        jcr:lastModified="{Date}2021-09-20T13:07:13.480+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/Laurie Fry_Chief Talent Officer.jpg"
+                        profiledesignation="Chief Talent Officer"
+                        profilename="Laurie Fry"/>
+                    <item_1632122931853
+                        cq:panelTitle="p12"
+                        jcr:lastModified="{Date}2021-09-20T13:08:19.857+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/M.jpg"
+                        profiledesignation="Chief Data Privacy Officer"
+                        profilename="Markus Ruhl"/>
+                    <item_1632122938117
+                        cq:panelTitle="p13"
+                        jcr:lastModified="{Date}2021-09-20T13:09:06.084+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="waep/components/profilecard"
+                        fileReference="/content/dam/waep/PAUL_DUNDON_24MAY2017.jpg"
+                        profiledesignation="Chief Financial Officer"
+                        profilename="Paul Dundon"/>
+                </carousel>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

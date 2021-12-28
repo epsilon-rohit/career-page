@@ -1,0 +1,68 @@
+
+	<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories=['waep.component.videotext']}"/>
+
+
+
+
+
+	<!-- <div class="mainctr">
+   	 	<div class="cmp-bg">  </div>
+			<div>
+   			 	<video controls class="cmp-video" preload="auto" poster="https://www.epsilon.com/hs-fs/hubfs/All%20Epsilon/About%20Us/Video/one_video_poster.png?width=1200&amp;name=one_video_poster.png" ><source src="https://www.epsilon.com/hubfs/All%20Epsilon/About%20Us/Video/One%20Epsilon%20with%20Ric%20intro%20FINAL.mp4"></video>
+			</div>
+       			<div class="txtctr">
+            		<div class="txtline">${properties.preheading} </div>
+         			<div class="txtline">${properties.heading} </div>
+         			<div class="txtline">${properties.reply} </div>
+         	</div>
+
+    </div> -->
+ <section class="eps-VideoPlayer eps-VideoPlayer--reverse">
+        <div class="eps-VideoPlayer__Images">
+            <div class="eps-VideoPlayer__blackCovers">
+                <div class="eps-theme eps-theme--blue ">
+                    <div class="eps-VideoPlayer__rightBackground blue eps-theme__accent" role="presentation">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="eps-container ">
+            <div class="eps-video-player__text">
+                <div class="eps-textGroup eps-textGroup--standard"><span class="eps-textGroup__eyebrow">
+                    <span class="eps-heading eps-heading--prehead "> ${properties.preheading}
+                    </span>
+                </span>
+                <span class="eps-textGroup__headline">
+                        <h2 class="eps-heading eps-heading--header "> ${properties.heading}</h2>
+                    </span>
+                    <span class="eps-textGroup__description eps-styled">
+                        <p>  ${properties.reply}</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="front-parent_wrapper front-image">
+                <div class="front-image_wrapper blue">
+                    <a name="video_99092"></a>
+                    <div class="video-player-wrapper" id="video_99092">
+                        <div>
+                            <div class="video-react"
+                                role="region" tabindex="-1" style="padding-top: 56.25%;">
+                                <video controls
+                                    class="video-react-video" preload="none"
+                                    poster="https://www.epsilon.com/hs-fs/hubfs/All%20Epsilon/About%20Us/Video/one_video_poster.png?width=1200&amp;name=one_video_poster.png"
+                                    tabindex="-1" id="html5_video_8b4gjt0082w">
+                                    <source src=${properties.videourl}>
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
